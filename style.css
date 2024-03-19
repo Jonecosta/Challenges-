@@ -1,0 +1,124 @@
+*{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+    .logoencriptador {
+        margin-left:1px;
+        padding-top: 1px;
+        width: 2%;
+    }
+    body{
+        box-sizing: border-box;
+    }
+    main{
+        
+        display:flex;
+        justify-content:space-around;
+        margin-bottom: 45px;
+        margin-left: 70px;
+        opacity: 0.6;
+
+    
+    }
+    textarea{
+        border: none;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius:24px 
+
+    }
+
+    .text-area{
+        border: none;
+        margin-top: 90px;
+        text-transform: lowercase;
+        
+        
+    
+
+    }
+    ::placeholder{
+        
+        color: #fc0707;}
+
+    .text-area:focus{
+        outline: none;
+    
+    
+    }
+    h6{
+        text-align: center;
+        padding: 5px 8px;
+        border-radius:24px ;
+        background-color: #000000;
+        color: #fc0707;
+        font: size 25px;;
+    }
+
+    .mensagem{
+        border: none;
+        border-radius: 24px;
+        background-color: #000000;
+        color:#ffffff;
+    
+    }
+    .botao {
+        display: flex;
+        align-items: self-end;
+    
+    }
+    .btn-encriptar{
+        background-color: #000000;
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 24px;
+}
+.btn-encriptar:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+    .btn-desencriptar{
+        cursor:pointer;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 24px;
+}
+    
+    .btn-desencriptar:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+    .btn-copiar{
+        border-radius: 24px;
+        background-color: #000000;
+        color: #ffffff;
+        cursor: pointer;
+        position: absolute;
+        width: 336px;
+    
+
+    }
+    .btn-copiar:hover{
+        background-color: #ffffff;
+        color: #000000;
+
+    }
+    .informacao{
+    
+        font-size: 18px;
+    }
+
+    .rodape {
+        background-color: #aee3f3;
+        text-align: center;
+        font: size 24px; 
+        font-weight: 400;
+        
+    }
+p{
+    font-size: 13px;
+}
